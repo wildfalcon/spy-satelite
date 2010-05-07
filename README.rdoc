@@ -1,11 +1,11 @@
 = spy-satelite
 
-Usage
-=====
+= Usage
 
-Rails
------
-  config.middleware.use Rack::SpySatelite, {:id => '18', :key => 'a9dbd597e532645e6457', :secret => '67d42fc088076eb7c1bf'}
+
+= Rails
+
+config.middleware.use Rack::SpySatelite, {:id => '1', :key => '1234abcd, :secret => '1234abcd'}
 
 == Note on Patches/Pull Requests
  
