@@ -12,6 +12,7 @@ begin
     gem.authors = ["Wildfalcon"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_development_dependency "cucumber", ">= 0"
+    gem.add_development_dependency "pusher", ">= 0.4.2"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
