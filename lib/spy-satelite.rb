@@ -14,7 +14,7 @@ module Rack
     end                
 
     def call(env)
-      lat = rand(360)
+      lat = rand(180)-90
       long = rand(360)
       Pusher['visitors'].trigger('new-visit', {:lat => lat, :long => long})
       @app.call(env)   
